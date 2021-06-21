@@ -2,6 +2,8 @@
 
 # NLP Sandbox PHI Annotator Example
 
+Plop
+
 [![GitHub Release](https://img.shields.io/github/release/nlpsandbox/phi-annotator-example.svg?include_prereleases&color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/nlpsandbox/phi-annotator-example/releases)
 [![GitHub CI](https://img.shields.io/github/workflow/status/nlpsandbox/phi-annotator-example/CI.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/nlpsandbox/phi-annotator-example/actions)
 [![GitHub License](https://img.shields.io/github/license/nlpsandbox/phi-annotator-example.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/nlpsandbox/phi-annotator-example/blob/main/LICENSE)
@@ -13,7 +15,7 @@
 
 [NLPSandbox.io] is an open platform for benchmarking modular natural language
 processing (NLP) tools on both public and private datasets. Academics, students,
-and industry professionals are invited to browse the available tasks and
+adustry professionals are invited to browse the available tasks and
 participate by developing and submitting an NLP Sandbox tool.
 
 This repository provides an example implementation of the [NLP Sandbox Date
