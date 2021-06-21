@@ -13,16 +13,16 @@ def get_tool():  # noqa: E501
     :rtype: Tool
     """
     tool = Tool(
-        name="date-annotator-example",
+        name="phi-annotator-example",
         version="1.2.0",
         license=License.APACHE_2_0,
-        repository="github:nlpsandbox/date-annotator-example",
-        description="Example implementation of the NLP Sandbox Date " +
+        repository="github:nlpsandbox/phi-annotator-example",
+        description="Example implementation of the NLP Sandbox PHI " +
                 "Annotator API",
         author="NLP Sandbox Team",
         author_email="team@nlpsandbox.io",
-        url="https://github.com/nlpsandbox/date-annotator-example",
-        type=ToolType.DATE_ANNOTATOR,
+        url="https://github.com/nlpsandbox/phi-annotator-example",
+        type=ToolType.PHI_ANNOTATOR,
         api_version="1.2.0"
     )
     return tool, 200
