@@ -61,7 +61,7 @@ performance -- just don't expect a high performance!
 ## Specification
 
 - NLP Sandbox schemas version: 1.2.0
-- NLP Sandbox tool version: 1.2.0
+- NLP Sandbox tool version: 1.2.1
 - Docker image: [docker.synapse.org/syn22277123/phi-annotator-example]
 
 
