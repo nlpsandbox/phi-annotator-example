@@ -30,7 +30,6 @@ a Docker image of this tool to Synapse Docker Registry. This image of this
 example tool can be submitted as-is on [NLPSandbox.io] to benchmark its
 performance -- just don't expect a high performance!
 
-
 ## Contents
 
 - [Specification](#Specification)
