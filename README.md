@@ -46,6 +46,7 @@ performance -- just don't expect a high performance!
   - [Enabling version updates](#Enabling-version-updates)
   - [Generating a new NLP Sandbox tool using
     openapi-generator](#Generating-a-new-NLP-Sandbox-tool-using-openapi-generator)
+  - [Install Node.js dependencies](#Install-Node.js-dependencies)
   - [Keeping your tool up-to-date](#Keeping-your-tool-up-to-date)
   - [Testing](#Testing)
   - [Preventing an NLP Sandbox tool from connecting to remote
@@ -208,6 +209,14 @@ The URL is composed of different elements:
 - `latest` - The latest stable version of the [NLP Sandbox schemas]. This token
   can be replaced by a specific release version `x.y.z` of the [NLP Sandbox
   schemas].
+
+### Install Node.js dependencies
+
+Install the following dependencies to run `npm run <script>`.
+
+```console
+npm ci
+```
 
 ### Keeping your tool up-to-date
 
