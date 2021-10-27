@@ -33,4 +33,9 @@ expected outcome.
 
 -
 
+#### Suggest a fix
+
+<!-- if you can't fix the bug yourself, perhaps you can point to what might be
+  causing the problem (line of code or commit), or simply make a suggestion -->
+
 #### Extra information
