@@ -10,9 +10,9 @@ services:
     networks:
       - nlpsandbox-internal
 
-  nginx:
+  phi-annotator-nginx:
     image: nginx:1.19.6-alpine
-    container_name: nginx
+    container_name: phi-annotator-nginx
     restart: always
     environment:
       - TOOL_HOST=phi-annotator
@@ -24,11 +24,13 @@ services:
       - nlpsandbox
       - nlpsandbox-internal
     ports:
-      - "80:80"
+      - "8080:80"
     depends_on:
       - phi-annotator
 
 networks:
   nlpsandbox:
+    name: nlpsandbox
   nlpsandbox-internal:
+    name: nlpsandbox-internal
     internal: true
