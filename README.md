@@ -46,7 +46,7 @@ performance -- just don't expect a high performance!
   - [Enabling version updates](#Enabling-version-updates)
   - [Generating a new NLP Sandbox tool using
     openapi-generator](#Generating-a-new-NLP-Sandbox-tool-using-openapi-generator)
-  - [Install Node.js dependencies](#Install-Node.js-dependencies)
+  - [Install the development dependencies](#Install-the-development-dependencies)
   - [Keeping your tool up-to-date](#Keeping-your-tool-up-to-date)
   - [Testing](#Testing)
   - [Preventing an NLP Sandbox tool from connecting to remote
@@ -102,7 +102,8 @@ conda activate phi-annotator
 Install and start this NLP Sandbox PHI annotator.
 
 ```console
-cd server && pip install -r requirements.txt
+cd server
+pip install -r requirements.txt
 python -m openapi_server
 ```
 
@@ -210,12 +211,19 @@ The URL is composed of different elements:
   can be replaced by a specific release version `x.y.z` of the [NLP Sandbox
   schemas].
 
-### Install Node.js dependencies
+### Install the development dependencies
 
-Install the following dependencies to run `npm run <script>`.
+Install the Node.js dependencies required to run `npm run <script>`.
 
 ```console
 npm ci
+```
+
+Install the Python dependencies required for tasks like linting and testing.
+
+```console
+cd server
+pip install -r dev-requirements.txt -r test-requirements.txt
 ```
 
 ### Keeping your tool up-to-date
@@ -294,7 +302,6 @@ tool container. One benefit is that you can test your tool locally and ensure
 that it works fine while it does not have access to the internet. Note that when
 being evaluated on [NLPSandbox.io], additional measures are put in place to
 prevent tools from connecting to remote servers.
-
 
 ## Versioning
 
