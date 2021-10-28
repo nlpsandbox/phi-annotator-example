@@ -29,7 +29,7 @@ class TextContactAnnotationAllOf(Model):
             'contact_type': 'contactType'
         }
 
-        self._contact_type = contact_type
+        self.contact_type = contact_type
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextContactAnnotationAllOf':

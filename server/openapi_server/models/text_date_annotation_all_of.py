@@ -29,7 +29,7 @@ class TextDateAnnotationAllOf(Model):
             'date_format': 'dateFormat'
         }
 
-        self._date_format = date_format
+        self.date_format = date_format
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextDateAnnotationAllOf':

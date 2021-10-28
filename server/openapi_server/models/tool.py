@@ -71,16 +71,16 @@ class Tool(Model):
             'api_version': 'apiVersion'
         }
 
-        self._name = name
-        self._version = version
-        self._license = license
-        self._repository = repository
-        self._description = description
-        self._author = author
-        self._author_email = author_email
-        self._url = url
-        self._type = type
-        self._api_version = api_version
+        self.name = name
+        self.version = version
+        self.license = license
+        self.repository = repository
+        self.description = description
+        self.author = author
+        self.author_email = author_email
+        self.url = url
+        self.type = type
+        self.api_version = api_version
 
     @classmethod
     def from_dict(cls, dikt) -> 'Tool':

@@ -31,7 +31,7 @@ class TextDateAnnotationResponse(Model):
             'text_date_annotations': 'textDateAnnotations'
         }
 
-        self._text_date_annotations = text_date_annotations
+        self.text_date_annotations = text_date_annotations
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextDateAnnotationResponse':

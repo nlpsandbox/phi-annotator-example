@@ -49,11 +49,11 @@ class TextIdAnnotation(Model):
             'id_type': 'idType'
         }
 
-        self._start = start
-        self._length = length
-        self._text = text
-        self._confidence = confidence
-        self._id_type = id_type
+        self.start = start
+        self.length = length
+        self.text = text
+        self.confidence = confidence
+        self.id_type = id_type
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextIdAnnotation':

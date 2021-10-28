@@ -31,7 +31,7 @@ class ToolDependencies(Model):
             'tools': 'tools'
         }
 
-        self._tools = tools
+        self.tools = tools
 
     @classmethod
     def from_dict(cls, dikt) -> 'ToolDependencies':

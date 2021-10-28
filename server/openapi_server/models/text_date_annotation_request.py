@@ -31,7 +31,7 @@ class TextDateAnnotationRequest(Model):
             'note': 'note'
         }
 
-        self._note = note
+        self.note = note
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextDateAnnotationRequest':

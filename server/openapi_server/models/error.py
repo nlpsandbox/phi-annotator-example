@@ -41,10 +41,10 @@ class Error(Model):
             'type': 'type'
         }
 
-        self._title = title
-        self._status = status
-        self._detail = detail
-        self._type = type
+        self.title = title
+        self.status = status
+        self.detail = detail
+        self.type = type
 
     @classmethod
     def from_dict(cls, dikt) -> 'Error':

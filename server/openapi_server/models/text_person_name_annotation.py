@@ -43,10 +43,10 @@ class TextPersonNameAnnotation(Model):
             'confidence': 'confidence'
         }
 
-        self._start = start
-        self._length = length
-        self._text = text
-        self._confidence = confidence
+        self.start = start
+        self.length = length
+        self.text = text
+        self.confidence = confidence
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextPersonNameAnnotation':

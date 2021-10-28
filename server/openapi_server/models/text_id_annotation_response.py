@@ -31,7 +31,7 @@ class TextIdAnnotationResponse(Model):
             'text_id_annotations': 'textIdAnnotations'
         }
 
-        self._text_id_annotations = text_id_annotations
+        self.text_id_annotations = text_id_annotations
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextIdAnnotationResponse':

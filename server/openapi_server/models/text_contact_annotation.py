@@ -49,11 +49,11 @@ class TextContactAnnotation(Model):
             'contact_type': 'contactType'
         }
 
-        self._start = start
-        self._length = length
-        self._text = text
-        self._confidence = confidence
-        self._contact_type = contact_type
+        self.start = start
+        self.length = length
+        self.text = text
+        self.confidence = confidence
+        self.contact_type = contact_type
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextContactAnnotation':

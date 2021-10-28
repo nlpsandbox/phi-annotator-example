@@ -31,7 +31,7 @@ class TextLocationAnnotationResponse(Model):
             'text_location_annotations': 'textLocationAnnotations'
         }
 
-        self._text_location_annotations = text_location_annotations
+        self.text_location_annotations = text_location_annotations
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextLocationAnnotationResponse':

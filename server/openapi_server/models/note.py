@@ -43,10 +43,10 @@ class Note(Model):
             'patient_id': 'patientId'
         }
 
-        self._identifier = identifier
-        self._text = text
-        self._type = type
-        self._patient_id = patient_id
+        self.identifier = identifier
+        self.text = text
+        self.type = type
+        self.patient_id = patient_id
 
     @classmethod
     def from_dict(cls, dikt) -> 'Note':

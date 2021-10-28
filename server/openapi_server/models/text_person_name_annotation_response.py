@@ -31,7 +31,7 @@ class TextPersonNameAnnotationResponse(Model):
             'text_person_name_annotations': 'textPersonNameAnnotations'
         }
 
-        self._text_person_name_annotations = text_person_name_annotations
+        self.text_person_name_annotations = text_person_name_annotations
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextPersonNameAnnotationResponse':

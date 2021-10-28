@@ -49,11 +49,11 @@ class TextLocationAnnotation(Model):
             'location_type': 'locationType'
         }
 
-        self._start = start
-        self._length = length
-        self._text = text
-        self._confidence = confidence
-        self._location_type = location_type
+        self.start = start
+        self.length = length
+        self.text = text
+        self.confidence = confidence
+        self.location_type = location_type
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextLocationAnnotation':

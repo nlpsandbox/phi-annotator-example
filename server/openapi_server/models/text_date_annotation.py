@@ -49,11 +49,11 @@ class TextDateAnnotation(Model):
             'date_format': 'dateFormat'
         }
 
-        self._start = start
-        self._length = length
-        self._text = text
-        self._confidence = confidence
-        self._date_format = date_format
+        self.start = start
+        self.length = length
+        self.text = text
+        self.confidence = confidence
+        self.date_format = date_format
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextDateAnnotation':

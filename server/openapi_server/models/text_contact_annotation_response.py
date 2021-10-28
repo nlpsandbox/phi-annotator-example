@@ -31,7 +31,7 @@ class TextContactAnnotationResponse(Model):
             'text_contact_annotations': 'textContactAnnotations'
         }
 
-        self._text_contact_annotations = text_contact_annotations
+        self.text_contact_annotations = text_contact_annotations
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextContactAnnotationResponse':

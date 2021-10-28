@@ -29,7 +29,7 @@ class TextIdAnnotationAllOf(Model):
             'id_type': 'idType'
         }
 
-        self._id_type = id_type
+        self.id_type = id_type
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextIdAnnotationAllOf':

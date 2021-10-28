@@ -29,7 +29,7 @@ class TextLocationAnnotationAllOf(Model):
             'location_type': 'locationType'
         }
 
-        self._location_type = location_type
+        self.location_type = location_type
 
     @classmethod
     def from_dict(cls, dikt) -> 'TextLocationAnnotationAllOf':

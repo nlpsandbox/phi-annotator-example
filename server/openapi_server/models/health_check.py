@@ -29,7 +29,7 @@ class HealthCheck(Model):
             'status': 'status'
         }
 
-        self._status = status
+        self.status = status
 
     @classmethod
     def from_dict(cls, dikt) -> 'HealthCheck':
