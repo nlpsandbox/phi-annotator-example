@@ -453,6 +453,7 @@ components:
       - length
       - start
       - text
+      title: TextAnnotation
       type: object
     TextContactAnnotation:
       allOf:
@@ -864,16 +865,20 @@ components:
           - phone
           - url
           - other
+          title: contactType
           type: string
       required:
       - contactType
+      title: TextContactAnnotation_allOf
       type: object
     TextDateAnnotation_allOf:
       properties:
         dateFormat:
           description: Date format (ISO 8601)
           example: MM/DD/YYYY
+          title: dateFormat
           type: string
+      title: TextDateAnnotation_allOf
       type: object
     TextIdAnnotation_allOf:
       properties:
@@ -890,9 +895,11 @@ components:
           - ssn
           - vehicle
           - other
+          title: idType
           type: string
       required:
       - idType
+      title: TextIdAnnotation_allOf
       type: object
     TextLocationAnnotation_allOf:
       properties:
@@ -909,7 +916,9 @@ components:
           - state
           - street
           - zip
+          title: locationType
           type: string
       required:
       - locationType
+      title: TextLocationAnnotation_allOf
       type: object
